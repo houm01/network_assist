@@ -10,7 +10,7 @@
 
 
 --------目前在写分析 Juniper srx 的安全策略-------
-代码在Juniper SRX中
-可以分析 xml或json格式的config，分析结果输出为EXCEL
-目前正在优化代码
+代码在Juniper SRX中  
+可以分析 xml或json格式的config，分析结果输出为EXCEL  
+目前正在优化代码  
 优化完成后，将考虑将其变的更加易用
