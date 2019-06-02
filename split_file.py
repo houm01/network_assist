@@ -40,17 +40,11 @@ def split_tech_support(file_name):
                 with open((str(a) + '_sw_tech_support.txt'), 'w') as file:
                     file.write(''.join(f.readlines()[xx:yy]))
                 a = a + 1
-
-                # with open('last_sw_tech_support.txt', 'w') as file2:
-                #     # os.chdir('output_dir' + '/' + 'raw_file')
-                #     file2.write(''.join(f.readlines()[line_list[-1] - 1:]))
             finally:
                 # pass
                 f1 = open(file_name, 'r')
                 with open('last_sw_tech_support.txt', 'w') as file2:
-                    # os.chdir('output_dir' + '/' + 'raw_file')
                     file2.write(''.join(f1.readlines()[line_list[-1] - 1:]))
-                    # file2.write('sdsds')
                 f1.close()
             f.close()
         # 结束写入 show tech-support 文本
@@ -106,7 +100,6 @@ def rename_file():
         if '-1_sw' in x:
             print('待删除:',x)
             os.remove(x)
-
 
         elif 'tech_support' in x:
             with open(x,'r') as file_name_sw_raw:

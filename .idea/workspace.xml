@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d79d9b09-978c-4b0f-ac46-75c75563cc7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/analysis_cisco_show.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis_cisco_tech_support.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raw_info/10.53.70.2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raw_info/10.6.132.29.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raw_info/demo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/split_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/Policy.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/Policy1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/Policy_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/center_xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/policy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/srx550-2019.05.17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/srx_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juniper SRX/testconde.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/showrun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testconde.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/split_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/split_file.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +28,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/split_file.py">
+        <entry file="file://$PROJECT_DIR$/Juniper SRX/srx_json.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1593">
-              <caret line="170" column="17" lean-forward="true" selection-start-line="170" selection-start-column="17" selection-end-line="170" selection-end-column="17" />
+            <state relative-caret-position="550">
+              <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
               <folding>
-                <element signature="e#112#121#0" expanded="true" />
+                <element signature="e#113#124#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="Python Script" />
       </list>
     </option>
@@ -49,6 +58,9 @@
       <find>#show</find>
       <find>sw_</find>
       <find>L4_02</find>
+      <find>dict</find>
+      <find>key</find>
+      <find>policy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,12 +75,26 @@
         <option value="$PROJECT_DIR$/analysis_cisco_show.py" />
         <option value="$PROJECT_DIR$/raw_info/10.53.70.2" />
         <option value="$PROJECT_DIR$/split_file.py" />
+        <option value="$PROJECT_DIR$/Juniper SRX/srx550-2019.05.17.txt" />
+        <option value="$PROJECT_DIR$/Juniper SRX/Policy_analysis.py" />
+        <option value="$PROJECT_DIR$/Juniper SRX/srx_config_1" />
+        <option value="$PROJECT_DIR$/Juniper SRX/2" />
+        <option value="$PROJECT_DIR$/Juniper SRX/3" />
+        <option value="$PROJECT_DIR$/Juniper SRX/test_json" />
+        <option value="$PROJECT_DIR$/Juniper SRX/center_xml" />
+        <option value="$PROJECT_DIR$/showrun.py" />
+        <option value="$PROJECT_DIR$/Juniper SRX/package.json" />
+        <option value="$PROJECT_DIR$/Juniper SRX/policy.json" />
+        <option value="$PROJECT_DIR$/Juniper SRX/policy.py" />
+        <option value="$PROJECT_DIR$/testconde.py" />
+        <option value="$PROJECT_DIR$/Juniper SRX/testconde.py" />
+        <option value="$PROJECT_DIR$/Juniper SRX/srx_json.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="912" />
-    <option name="y" value="617" />
+    <option name="x" value="859" />
+    <option name="y" value="52" />
     <option name="width" value="2560" />
     <option name="height" value="1335" />
   </component>
@@ -80,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,13 +116,7 @@
             <path>
               <item name="network_assist" type="b2602c69:ProjectViewProjectNode" />
               <item name="network_assist" type="462c0819:PsiDirectoryNode" />
-              <item name="output_dir" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="network_assist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="network_assist" type="462c0819:PsiDirectoryNode" />
-              <item name="output_dir" type="462c0819:PsiDirectoryNode" />
-              <item name="raw_file" type="462c0819:PsiDirectoryNode" />
+              <item name="Juniper SRX" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="network_assist" type="b2602c69:ProjectViewProjectNode" />
@@ -108,24 +127,29 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/raw_info" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/raw_info" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Juniper SRX" />
+      <recent name="$PROJECT_DIR$/raw_info" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Juniper SRX" />
       <recent name="$PROJECT_DIR$/raw_info" />
       <recent name="$PROJECT_DIR$/output_dir/raw_file/test" />
       <recent name="$PROJECT_DIR$" />
@@ -143,8 +167,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.split_file">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.srx_json">
+    <configuration name="Policy_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="network_file_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Juniper SRX" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Juniper SRX/Policy_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="showrun" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="network_file_analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,7 +203,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/showrun.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,10 +234,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="srx_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="network_file_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Juniper SRX" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Juniper SRX/srx_json.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testconde" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="network_file_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Juniper SRX" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Juniper SRX/testconde.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.srx_json" />
+        <item itemvalue="Python.testconde" />
+        <item itemvalue="Python.showrun" />
+        <item itemvalue="Python.Policy_analysis" />
         <item itemvalue="Python.split_file" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -217,12 +310,25 @@
       <workItem from="1557820266976" duration="2598000" />
       <workItem from="1557883317739" duration="33000" />
       <workItem from="1557992410153" duration="2214000" />
-      <workItem from="1558009561910" duration="5398000" />
+      <workItem from="1558009561910" duration="6784000" />
+      <workItem from="1558070216701" duration="12027000" />
+      <workItem from="1558311733001" duration="4091000" />
+      <workItem from="1558537986712" duration="7252000" />
+      <workItem from="1558602979923" duration="7741000" />
+      <workItem from="1558858958920" duration="8538000" />
+      <workItem from="1558876619502" duration="3206000" />
+      <workItem from="1558923706549" duration="9228000" />
+      <workItem from="1559006802798" duration="627000" />
+      <workItem from="1559097153378" duration="16984000" />
+      <workItem from="1559183603282" duration="7086000" />
+      <workItem from="1559201139336" duration="6442000" />
+      <workItem from="1559448317810" duration="124000" />
+      <workItem from="1559450372371" duration="6363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41689000" />
+    <option name="totallyTimeSpent" value="132784000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,12 +342,12 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1335" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22915012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16521049" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32823813" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30973452" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32743362" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40788415" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -251,7 +357,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.35961384" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.47465807" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -264,30 +370,16 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/network_assist$Policy_analysis.coverage" NAME="Policy_analysis Coverage Results" MODIFIED="1558875183251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Juniper SRX" />
     <SUITE FILE_PATH="coverage/network_assist$split_file.coverage" NAME="split_file Coverage Results" MODIFIED="1558018299000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/network_file_analysis$split_file.coverage" NAME="split_file Coverage Results" MODIFIED="1556854415785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/network_assist$testconde.coverage" NAME="testconde Coverage Results" MODIFIED="1559235846618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Juniper SRX" />
     <SUITE FILE_PATH="coverage/network_file_analysis$main.coverage" NAME="main Coverage Results" MODIFIED="1556854265296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/network_analysis$split_file.coverage" NAME="split_file Coverage Results" MODIFIED="1557552156761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/network_assist$showrun.coverage" NAME="showrun Coverage Results" MODIFIED="1558947931950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/network_assist$srx_json.coverage" NAME="srx_json Coverage Results" MODIFIED="1559485830430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Juniper SRX" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/raw_info/4_sw.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/8_sw.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/0_sw.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/6_sw.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/19_sw_tech_support.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/last_sw.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/5_sw_tech_support.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/7_sw_tech_support.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/3_sw_tech_support.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/1_sw_tech_support.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/2_sw_tech_support.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/0_sw_tech_support.txt" />
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/HLSH_GG_AC_L1_02" />
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/HLSH_GG_AC_L2_02" />
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/HLSH_GG_AC_L2_04" />
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/HLSH_GG_AC_L3_03" />
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/9_sw_tech_support.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/8_sw_tech_support.txt" />
     <entry file="file://$PROJECT_DIR$/output_dir/raw_file/4_sw_tech_support.txt" />
     <entry file="file://$PROJECT_DIR$/raw_info/0_sw_cisco_show.txt" />
     <entry file="file://$PROJECT_DIR$/raw_info/1_sw_cisco_show.txt" />
@@ -301,110 +393,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis_cisco_show.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_info/demo2_empty">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/raw_info/demo2_empty" />
     <entry file="file://$PROJECT_DIR$/output_dir/raw_file/0_sw_cisco_show.txt" />
     <entry file="file://$PROJECT_DIR$/output_dir/raw_file/8_sw_tech_support.txt" />
-    <entry file="file://$PROJECT_DIR$/raw_info/demo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/output_dir/raw_file/last_cisco_show.txt" />
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/HLSH_GG_AC_L1_03">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/HLSH_GG_CORE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/HLSH_GG_AC_L1_03" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/HLSH_GG_CORE" />
     <entry file="file://$PROJECT_DIR$/raw_info/last_cisco_show.txt" />
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/CENTER-NWS0101-B12P">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/CENTER-NWS0112-4F2P">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/demo2_empty">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_info/10.53.70.2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_info/demo">
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/CENTER-NWS0101-B12P" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/CENTER-NWS0112-4F2P" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/demo2_empty" />
+    <entry file="file://$PROJECT_DIR$/raw_info/10.53.70.2" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/last_sw_tech_support.txt" />
+    <entry file="file://$PROJECT_DIR$/raw_info/last_sw_tech_support.txt" />
+    <entry file="file://$PROJECT_DIR$/raw_info/demo" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/CENTER-NWS0117-5F5P" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/HLSH_GG_AC_L4_02" />
+    <entry file="file://$PROJECT_DIR$/raw_info/10.6.132.32.log" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/PLAZA-NWS5113" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/PLAZA-NWS5115" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/5_sw_tech_support.txt" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/PLAZA-NWS5117" />
+    <entry file="file://$PROJECT_DIR$/raw_info/10.6.132.29.log" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/PARC-NWS1032" />
+    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/-1_sw_tech_support.txt" />
+    <entry file="file://$PROJECT_DIR$/raw_info/-1_sw_tech_support.txt" />
+    <entry file="file://$PROJECT_DIR$/analysis_cisco_tech_support.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="101632" column="16" selection-start-line="101632" selection-start-column="16" selection-end-line="101632" selection-end-column="16" />
+        <state relative-caret-position="-706">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/last_sw_tech_support.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_info/last_sw_tech_support.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_info/demo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="101632" column="16" selection-start-line="101632" selection-start-column="11" selection-end-line="101632" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/CENTER-NWS0117-5F5P">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/HLSH_GG_AC_L4_02">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_info/10.6.132.32.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/PLAZA-NWS5113">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10901" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/PLAZA-NWS5115">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21683" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/5_sw_tech_support.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/PLAZA-NWS5117">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_info/10.6.132.29.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-141713" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/PARC-NWS1032">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_dir/raw_file/-1_sw_tech_support.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_info/-1_sw_tech_support.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/split_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="170" column="17" lean-forward="true" selection-start-line="170" selection-start-column="17" selection-end-line="170" selection-end-column="17" />
+        <state relative-caret-position="1802">
+          <caret line="106" column="39" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
           <folding>
             <element signature="e#112#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showrun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/Policy_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="189" column="4" lean-forward="true" selection-start-line="189" selection-start-column="4" selection-end-line="189" selection-end-column="39" />
+          <folding>
+            <element signature="e#112#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis_cisco_show.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="1108" selection-start-line="1108" selection-end-line="1394" selection-end-column="6" />
+          <folding>
+            <element signature="e#290#3416#0" />
+            <element signature="e#3543#7458#0" />
+            <element signature="e#7485#7829#0" />
+            <element signature="e#7842#8529#0" />
+            <element signature="e#8553#9340#0" />
+            <element signature="e#9358#9380#0" />
+            <element signature="e#9410#11557#0" />
+            <element signature="e#11572#13005#0" />
+            <element signature="e#13027#14832#0" />
+            <element signature="e#14853#15436#0" />
+            <element signature="e#15450#15532#0" />
+            <element signature="e#15548#15996#0" />
+            <element signature="e#16009#22663#0" />
+            <element signature="e#22681#28800#0" />
+            <element signature="e#22698#28794#0" />
+            <element signature="e#22706#23847#0" />
+            <element signature="e#23855#24537#0" />
+            <element signature="e#24545#25193#0" />
+            <element signature="e#25201#25510#0" />
+            <element signature="e#25518#26084#0" />
+            <element signature="e#26092#26501#0" />
+            <element signature="e#26509#27235#0" />
+            <element signature="e#27243#28469#0" />
+            <element signature="e#28477#28787#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/policy.py" />
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/people.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testconde.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/center_xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/Policy1.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/Policy.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/policy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="8" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/srx550-2019.05.17.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="227" column="95" selection-start-line="227" selection-start-column="76" selection-end-line="227" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/test.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/test_json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1988">
+          <caret line="126" column="27" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/testconde.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/srx_config_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Juniper SRX/srx_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <folding>
+            <element signature="e#113#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
